@@ -1,12 +1,26 @@
-<style>
+
 body {
-  background-color: blue;
+
 }
 h1 {
   color: blue;
+  text-align: center;
 }
 p {
   color: red;
 }
+img{
+    text-align: center;
+}
 
-</style>
+.ind-prg{
+  text-indent: 50px;
+}
+
+.content {
+
+  background-color: lightgray;
+    padding: 50px;
+  margin: 20px;
+
+}
