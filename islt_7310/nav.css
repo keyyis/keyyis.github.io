@@ -3,7 +3,7 @@ ul {
   margin: 10px;
   padding: 10px;
   overflow: hidden;
-  background-color: #E0E0E0;
+  background-color: #1171A2;
 }
 
 li {
@@ -13,7 +13,7 @@ li {
 li a, .dropbtn {
   list-style-type: none;
   display: block;
-  color: #BA1212;
+  color: #F2F2F2;
   text-align: center;
   padding: 14px 16px;
   margin: 10px;
