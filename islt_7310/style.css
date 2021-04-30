@@ -1,3 +1,9 @@
+@font-face {
+  font-family: customFont;
+  src: url(Roboto-Regular.ttf);
+  font-weight: normal;
+}
+
 body {
 
 }
@@ -9,6 +15,7 @@ h1 {
 
 p {
   color: red;
+  font-family:'customFont';
 }
 
 img{
@@ -98,6 +105,31 @@ footer{
   }
   img{
 
+  }
+}
+
+@media print {
+  nav, iframe {
+    display: none;
+  }
+  body {
+    color: black;
+    font-family: Serif;
+    width:100%!important;
+    padding:0!important;
+    margin:1in!important;
+  }
+  p{
+    font-size: 12px;
+  }
+  h1{
+    font-size: 18px;
+  }
+  h3{
+    font-size: 16px;
+  }
+  blockquote{
+    font-size: 14px;
   }
 }
 
