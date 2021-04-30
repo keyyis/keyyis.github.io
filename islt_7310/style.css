@@ -4,6 +4,8 @@
   font-weight: normal;
 }
 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 body {
 
 }
@@ -131,5 +133,11 @@ footer{
   blockquote{
     font-size: 14px;
   }
+}
+
+footer>p>i:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 
