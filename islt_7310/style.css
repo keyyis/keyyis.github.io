@@ -140,4 +140,6 @@ footer>p>i:hover {
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
 }
-
+footer  {
+  background-image: url("footer-background.jpg");
+}
