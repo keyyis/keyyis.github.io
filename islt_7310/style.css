@@ -143,3 +143,30 @@ footer>p>i:hover {
 footer  {
   background-image: url("footer-background.jpg");
 }
+
+table, th, td {
+  border: 1px solid black;
+}
+table.skills-Table{
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+  .skills-Table>thead>tr{
+    background-color: #333333;
+    color: azure;
+  }
+
+   .skills-Table>tbody>tr:nth-child(even){
+    background-color: darkcyan;
+    color: crimson;
+  }
+
+      tr:nth-child(odd){
+    background-color: cornsilk;
+    color: darkblue;
+  }
+
+
+
