@@ -20,8 +20,8 @@ p {
   font-family:'customFont';
 }
 
-img{
-    text-align: center;
+iframe {
+    border:0px;
 }
 
 .ind-prg{
@@ -167,6 +167,3 @@ table.skills-Table{
     background-color: cornsilk;
     color: darkblue;
   }
-
-
-
