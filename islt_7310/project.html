@@ -5,29 +5,103 @@
 <head>
 
             <meta charset="utf-8">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
             <title>Welcome</title>
 
             <link rel="stylesheet" href="style.css">
             <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="favicon.ico" />
 
 </head>
 <body>
-    <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">PROJECT</a>
-            <div class="dropdown-content">
-                <a href="#">Link1</a>
-                <a href="#">Link2</a>
-                <a href="#">Link3</a>
-            </div>
-        </li>
-    </ul>
+
+<nav>
+
+    <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="about.html">ABOUT</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">EXPERIENCE
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+     <a href="project.html#design-develop">Design and Development of learning systems</a>
+                <a href="project.html#front-end">Front-End Analysis and System Evaluation</a>
+                <a href="project.html#leadership">Leadership & Social Responsibility</a>
+    </div>
+  </div>
+       <a href="reflection.html">REFLECTION</a>
+<a href="contact.html">CONTACT</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+</nav>
 
     <br/>
 
+<h1 id="heading">Nebi's Portfolio</h1>
 
+<h3>Welcome to Nebi's Portfolio website</h3>
+
+  <main class="flex">
+The Learning Systems Design Development (LSDD)
+      program requires mastery of three areas of competency.
+      More information about competencies based on the Learning
+      Technologies and Design Program goals and objectives can be
+      found on ISLT's website.
+
+By following the links below or by clicking on each table,
+      you will find some of my artifacts that demonstrate mastery of the competencies.
+  </main>
+
+<section id="design-develop">
+    <h1> Design and Development of learning systems          </h1>
+<table width="70%">
+      <tr width="70%">
+        <td width="80%"><img src="goal1.png" width="80%"></td>
+    </tr>
+</table>
+</section>
+
+<section id="front-end">
+     <h1>  Front-End Analysis and System Evaluation        </h1>
+<table width="70%">
+     <tr width="70%">
+        <td width="80%"><img src="goal2.png" width="80%"></td>
+    </tr>
+</table>
+</section>
+
+<section id="leadership">
+    <h1>Leadership & Social Responsibility</h1>
+
+<table width="70%">
+     <tr width="70%">
+        <td width="80%"><img src="goal3.png" width="80%"></td>
+    </tr>
+</table>
+</section>
+    <footer>
+        <p>Author: Nebi Sevim</p>
+            <p><i class="fa fa-phone"></i>
+            <a href="#">+1 (111) 111-1111</a>
+        </p>
+        <p><i class="fa fa-envelope"></i>
+            <a href="mailto:nis4y6@mail.missouri.edu">nis4y6@mail.missouri.edu</a>
+        </p>
+
+      </footer>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
     </body>
 </html>
