@@ -159,7 +159,7 @@ table.skills-Table{
   }
 
    .skills-Table>tbody>tr:nth-child(even){
-    background-color: beige;
+    background-color: #F0F79D;
     color: crimson;
   }
 
